@@ -64,14 +64,13 @@ namespace ramulator
 
         BlockHammer()
         {
-            cntr = 0;
-            Nrh = 3200; Nbl = 400;
-            Tdelay = 8; epoch = 32000;
-            Tcbf = 64000; Trw = 64000;   // in ms, need to sync
+            Nrh = 3200; Nbl = 400;      // Adjust these values as needed 
+            Tdelay = 8; epoch = 32000;  // Based on physical data
+            Tcbf = 64000; Trw = 64000;  // Sync time values carefully
 
             srand(time(NULL));
             epc = 0;
-            
+            cntr = 0;   
             c = false; 
                 hashseed();
                 bloomClear(); 
