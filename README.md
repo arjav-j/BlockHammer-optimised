@@ -5,7 +5,6 @@ Implimentaion of BlockHammer with an optimized Attack Throttler.
 
 To use, pasted these files in the src folder in the Ramultor simulator ( memory controller would be replaced)
 
-<br>
 <br> In BlockHammer.cpp:
 <br> To deactivate the entire block hammer modulde uncomment line 287.
 <br> To deactivate the attack throttler, it can be set on passive by uncommenting line 245.
